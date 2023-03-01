@@ -1,6 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-// import Fade from "react-reveal/Fade";
+import styled from 'styled-components'
 import { Fade } from 'react-awesome-reveal';
 function Section({ title, discription, leftbtn, rightbtn, backgroundImg }) {
     return (

@@ -2,39 +2,39 @@ import React,{useState} from "react";
 import styled from "styled-components";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from '@mui/icons-material/Close';
-import { style } from "@mui/system";
+
 function Header() {
   const [burgerStatus , SetBurgerStatus] = useState(0);
   return (
     <Container>
-      <a>
+      <a href="/#">
         <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
-        <a href="#">Model S</a>
+        <a href="/#">Model S</a>
 
-        <a href="#">Model 3</a>
+        <a href="/#">Model 3</a>
 
-        <a href="#">Model X</a>
+        <a href="/#">Model X</a>
 
-        <a href="#">Model Y</a>
+        <a href="/#">Model Y</a>
       </Menu>
       <RightMenu>
-        <a href="#">shop </a>
-        <a href="#">account</a>
+        <a href="/#">shop </a>
+        <a href="/#">account</a>
         <CustomMenu onClick={()=> SetBurgerStatus(true)}/>
       </RightMenu>
       <BurgetNav show={burgerStatus}>
          <CustomeClose onClick={()=> SetBurgerStatus(false)} />
-         <li><a href="#">Model S</a></li>
-         <li><a href="#">Model 3</a></li>
-         <li><a href="#">Model X</a></li>
-         <li><a href="#">Model Y</a></li>
-        <li><a href="#">Existing inventory</a></li>
-        <li><a href="#">Used inventory</a></li>
-        <li><a href="#">Trade-in</a></li>
-        <li><a href="#">Cyber truck</a></li>
-        <li><a href="#">Roadster</a></li>
+         <li><a href="/#">Model S</a></li>
+         <li><a href="/#">Model 3</a></li>
+         <li><a href="/#">Model X</a></li>
+         <li><a href="/#">Model Y</a></li>
+        <li><a href="/#">Existing inventory</a></li>
+        <li><a href="/#">Used inventory</a></li>
+        <li><a href="/#">Trade-in</a></li>
+        <li><a href="/#">Cyber truck</a></li>
+        <li><a href="/#">Roadster</a></li>
         
         
       </BurgetNav>
