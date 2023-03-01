@@ -32,6 +32,27 @@ function Home() {
         leftbtn="custom order"
         rightbtn="existing inventory"
       />
+      <Section
+        title="Lowest Cost Sloar Panels in America"
+        discription="Money-back guarantee"
+        backgroundImg="solar-panel.jpg"
+        leftbtn="custom order"
+        rightbtn="Learn more"
+      />
+      <Section
+        title="Solar for New Roofs"
+        discription="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
+        backgroundImg="solar-roof.jpg"
+        leftbtn="Order now"
+        rightbtn="learn more"
+      />
+      <Section
+        title="Accessories"
+        discription=""
+        backgroundImg="accessories.jpg"
+        leftbtn="shop now"
+    
+      />
     </Container>
   );
 }
