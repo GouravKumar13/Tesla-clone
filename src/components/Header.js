@@ -21,7 +21,7 @@ function Header() {
       </Menu>
       <RightMenu>
         <a href="#">shop </a>
-        <a href="#"> TEsla account</a>
+        <a href="#">account</a>
         <CustomMenu onClick={()=> SetBurgerStatus(true)}/>
       </RightMenu>
       <BurgetNav show={burgerStatus}>
