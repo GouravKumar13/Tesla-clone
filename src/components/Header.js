@@ -2,6 +2,8 @@ import React,{useState} from "react";
 import styled from "styled-components";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from '@mui/icons-material/Close';
+import { NavLink } from "react-router-dom";
+
 
 function Header() {
   const [burgerStatus , SetBurgerStatus] = useState(0);
@@ -11,13 +13,12 @@ function Header() {
         <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
-        <a href="/#">Model S</a>
+      <NavLink to="#model-S">MOdel S</NavLink>
+      <NavLink to="#model-3">Model 3</NavLink>
+      <NavLink to="#model-X">Model X</NavLink>
+      <NavLink to="#model-y">Model Y</NavLink>
 
-        <a href="/#">Model 3</a>
-
-        <a href="/#">Model X</a>
-
-        <a href="/#">Model Y</a>
+        
       </Menu>
       <RightMenu>
         <a href="/#">shop </a>
